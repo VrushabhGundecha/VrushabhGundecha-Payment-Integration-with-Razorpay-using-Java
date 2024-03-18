@@ -36,7 +36,7 @@ public class HomeController {
 		// get amount in string format and then convert to Integer format
 		int amt = Integer.parseInt(data.get("amount").toString());
 		
-		RazorpayClient client = new RazorpayClient("rzp_test_tVBRqSf0PDIupW", "Dgq6oqoivw2VV4zEn6avBP4F");
+		RazorpayClient client = new RazorpayClient("Enter your Key", "Enter your Secret Key");
 		
 		
 		//	Creating JSON object
